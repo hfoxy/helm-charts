@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   tapo-prometheus-exporter:
   - apiVersion: v2
+    appVersion: v0.0.3
+    created: "2023-10-19T12:57:18.514377867Z"
+    description: A Helm chart for deploying the tapo prometheus exporter
+    digest: 30ac1a12190f803bafc6922af54d12b6fbe9b7392a8ce6852e1fced9eed23621
+    name: tapo-prometheus-exporter
+    type: application
+    urls:
+    - https://hfoxy.github.io/helm-charts/tapo-prometheus-exporter-v0.0.3.tgz
+    version: v0.0.3
+  - apiVersion: v2
     appVersion: v0.0.2
-    created: "2023-10-19T12:46:00.317229498Z"
+    created: "2023-10-19T12:57:18.513911227Z"
     description: A Helm chart for deploying the tapo prometheus exporter
     digest: 2ededa0b2a9bbe61763fc2682b357635284764b5e615546c9cbd0743836a30f7
     name: tapo-prometheus-exporter
@@ -13,7 +23,7 @@ entries:
     version: v0.0.2
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2023-10-19T12:46:00.316814762Z"
+    created: "2023-10-19T12:57:18.513436486Z"
     description: A Helm chart for deploying the tapo prometheus exporter
     digest: 6638fb654fc1e201ae3a83a93b137238a4a132957b4e0986fe6ddab0d42bf2e9
     name: tapo-prometheus-exporter
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://hfoxy.github.io/helm-charts/tapo-prometheus-exporter-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-10-19T12:46:00.316224411Z"
+generated: "2023-10-19T12:57:18.512668921Z"
