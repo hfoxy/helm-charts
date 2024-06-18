@@ -1,5 +1,21 @@
 apiVersion: v1
 entries:
+  kubefaas:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-06-18T15:38:33.18912+01:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 19.5.3
+    description: Helm Chart for installing Kubefaas, a Function as a Service platform
+      for Kubernetes
+    digest: f1120a8f6ba78b7800f0afb6df7eff76404e02b9c25fcb2f507f19083c335242
+    name: kubefaas
+    type: application
+    urls:
+    - https://hfoxy.github.io/helm-charts/kubefaas-0.0.1.tgz
+    version: 0.0.1
   tapo-prometheus-exporter:
   - apiVersion: v2
     appVersion: v0.1.11
