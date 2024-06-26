@@ -2,6 +2,21 @@ apiVersion: v1
 entries:
   kubefaas:
   - apiVersion: v2
+    appVersion: 0.1.5
+    created: "2024-06-26T12:52:11.001115+01:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 19.5.3
+    description: Helm Chart for installing Kubefaas, a Function as a Service platform
+      for Kubernetes
+    digest: dac2d476df20051ce1806c2f072a21a09f7753f11efd6e64782a38a000b9cac8
+    name: kubefaas
+    type: application
+    urls:
+    - https://hfoxy.github.io/helm-charts/kubefaas-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: 0.1.4
     created: "2024-06-26T12:35:11.509203+01:00"
     dependencies:
